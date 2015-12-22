@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBq-ym-3Qz" userLabel="Buttons View">
+                    <rect key="frame" x="0.0" y="26" width="320" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOM-LB-Ugk" userLabel="facebook button">
+                            <rect key="frame" x="18" y="15" width="44" height="45"/>
+                            <animations/>
+                            <state key="normal" image="idle_facebook"/>
+                            <state key="highlighted" image="selected_facebook"/>
+                            <connections>
+                                <action selector="HeaderButtonClicked:" destination="-2" eventType="touchUpInside" id="WdX-Wx-Ld2"/>
+                            </connections>
+                        </button>
+                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndj-nB-XCY">
+                            <rect key="frame" x="62" y="11" width="36" height="49"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="699-tm-uO4">
+                            <rect key="frame" x="142" y="11" width="36" height="49"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3US-Zw-wkJ">
+                            <rect key="frame" x="222" y="11" width="36" height="49"/>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oJ-x6-cwj" userLabel="sms button">
+                            <rect key="frame" x="178" y="15" width="44" height="45"/>
+                            <animations/>
+                            <state key="normal" image="idle_sms"/>
+                            <state key="highlighted" image="selected_sms"/>
+                            <connections>
+                                <action selector="HeaderButtonClicked:" destination="-2" eventType="touchUpInside" id="Ahh-lW-OvL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sD4-PY-3Kn" userLabel="twitter button">
+                            <rect key="frame" x="98" y="15" width="44" height="45"/>
+                            <animations/>
+                            <state key="normal" image="idle_twitter"/>
+                            <state key="highlighted" image="selected_twitter"/>
+                            <connections>
+                                <action selector="HeaderButtonClicked:" destination="-2" eventType="touchUpInside" id="XXy-DV-el6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-Mf-bHa" userLabel="email button">
+                            <rect key="frame" x="258" y="15" width="44" height="45"/>
+                            <animations/>
+                            <state key="normal" image="idle_email"/>
+                            <state key="highlighted" image="selected_email"/>
+                            <connections>
+                                <action selector="HeaderButtonClicked:" destination="-2" eventType="touchUpInside" id="Tdv-ej-7wU"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.79215686269999996" green="0.88235294119999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="699-tm-uO4" firstAttribute="leading" secondItem="sD4-PY-3Kn" secondAttribute="trailing" id="1Ao-PY-vdM"/>
+                        <constraint firstItem="IOM-LB-Ugk" firstAttribute="leading" secondItem="hBq-ym-3Qz" secondAttribute="leading" constant="18" id="5Iq-04-pOV"/>
+                        <constraint firstItem="3US-Zw-wkJ" firstAttribute="top" secondItem="699-tm-uO4" secondAttribute="top" id="9m6-1O-Ns7"/>
+                        <constraint firstItem="699-tm-uO4" firstAttribute="bottom" secondItem="sD4-PY-3Kn" secondAttribute="bottom" id="BXa-Zy-j9J"/>
+                        <constraint firstAttribute="trailing" secondItem="B2z-Mf-bHa" secondAttribute="trailing" constant="18" id="CrB-CX-Uzd"/>
+                        <constraint firstItem="Ndj-nB-XCY" firstAttribute="top" secondItem="hBq-ym-3Qz" secondAttribute="top" constant="11" id="E4X-iI-bsH"/>
+                        <constraint firstItem="699-tm-uO4" firstAttribute="bottom" secondItem="7oJ-x6-cwj" secondAttribute="bottom" id="Hh9-DN-Kyh"/>
+                        <constraint firstItem="3US-Zw-wkJ" firstAttribute="width" secondItem="Ndj-nB-XCY" secondAttribute="width" id="J8f-eN-1OA"/>
+                        <constraint firstItem="Ndj-nB-XCY" firstAttribute="bottom" secondItem="IOM-LB-Ugk" secondAttribute="bottom" id="Rbq-pi-PrJ"/>
+                        <constraint firstItem="7oJ-x6-cwj" firstAttribute="leading" secondItem="699-tm-uO4" secondAttribute="trailing" id="YoH-EH-66k"/>
+                        <constraint firstItem="3US-Zw-wkJ" firstAttribute="leading" secondItem="7oJ-x6-cwj" secondAttribute="trailing" id="Zh0-j9-xgD"/>
+                        <constraint firstItem="699-tm-uO4" firstAttribute="width" secondItem="Ndj-nB-XCY" secondAttribute="width" id="a7S-FS-9VQ"/>
+                        <constraint firstItem="699-tm-uO4" firstAttribute="centerX" secondItem="hBq-ym-3Qz" secondAttribute="centerX" id="i7f-le-Pok"/>
+                        <constraint firstItem="B2z-Mf-bHa" firstAttribute="top" secondItem="hBq-ym-3Qz" secondAttribute="top" constant="15" id="lck-9o-Hig"/>
+                        <constraint firstAttribute="bottom" secondItem="B2z-Mf-bHa" secondAttribute="bottom" constant="5" id="ljo-oY-2T3"/>
+                        <constraint firstAttribute="bottom" secondItem="IOM-LB-Ugk" secondAttribute="bottom" constant="5" id="mMU-Eo-lOK"/>
+                        <constraint firstItem="IOM-LB-Ugk" firstAttribute="top" secondItem="hBq-ym-3Qz" secondAttribute="top" constant="15" id="oKK-On-uOc"/>
+                        <constraint firstItem="sD4-PY-3Kn" firstAttribute="leading" secondItem="Ndj-nB-XCY" secondAttribute="trailing" id="sq6-pw-ukj"/>
+                        <constraint firstItem="Ndj-nB-XCY" firstAttribute="bottom" secondItem="sD4-PY-3Kn" secondAttribute="bottom" id="tGu-rh-eTL"/>
+                        <constraint firstItem="3US-Zw-wkJ" firstAttribute="bottom" secondItem="7oJ-x6-cwj" secondAttribute="bottom" id="wH9-Dt-Gko"/>
+                        <constraint firstItem="Ndj-nB-XCY" firstAttribute="top" secondItem="699-tm-uO4" secondAttribute="top" id="wXu-eH-RoS"/>
+                        <constraint firstItem="Ndj-nB-XCY" firstAttribute="leading" secondItem="IOM-LB-Ugk" secondAttribute="trailing" id="xPX-BS-rKZ"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share world chat with your friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxZ-8X-oXv" userLabel="label">
+                    <rect key="frame" x="8" y="0.0" width="304" height="31"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="oZs-6U-SXS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.79215686269999996" green="0.88235294119999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bxZ-8X-oXv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="BV4-oV-aeL"/>
+                <constraint firstItem="hBq-ym-3Qz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="Dfl-Y4-CBk"/>
+                <constraint firstItem="bxZ-8X-oXv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="b7h-n9-ZNO"/>
+                <constraint firstAttribute="bottom" secondItem="hBq-ym-3Qz" secondAttribute="bottom" id="gsv-7L-uhe"/>
+                <constraint firstItem="hBq-ym-3Qz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="meH-5K-IEZ"/>
+                <constraint firstItem="bxZ-8X-oXv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nCd-CJ-LuL"/>
+                <constraint firstAttribute="trailing" secondItem="hBq-ym-3Qz" secondAttribute="trailing" id="piT-c9-eUq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="476" y="343.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="idle_email" width="44" height="45"/>
+        <image name="idle_facebook" width="44" height="45"/>
+        <image name="idle_sms" width="44" height="45"/>
+        <image name="idle_twitter" width="44" height="45"/>
+        <image name="selected_email" width="44" height="45"/>
+        <image name="selected_facebook" width="44" height="45"/>
+        <image name="selected_sms" width="44" height="45"/>
+        <image name="selected_twitter" width="44" height="45"/>
+    </resources>
+</document>

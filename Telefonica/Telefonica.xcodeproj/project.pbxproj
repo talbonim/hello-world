@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6CD48D71C1DD37600D90B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD48D61C1DD37600D90B25 /* main.m */; };
+		D6CD48DA1C1DD37600D90B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD48D91C1DD37600D90B25 /* AppDelegate.m */; };
+		D6CD48E01C1DD37600D90B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD48DE1C1DD37600D90B25 /* Main.storyboard */; };
+		D6CD48E21C1DD37600D90B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CD48E11C1DD37600D90B25 /* Assets.xcassets */; };
+		D6CD48E51C1DD37600D90B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD48E31C1DD37600D90B25 /* LaunchScreen.storyboard */; };
+		D6CD48FC1C1DD55100D90B25 /* UIHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD48FA1C1DD55100D90B25 /* UIHeaderView.m */; };
+		D6CD48FD1C1DD55100D90B25 /* UIHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CD48FB1C1DD55100D90B25 /* UIHeaderView.xib */; };
+		D6CD49041C1EFF4700D90B25 /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49031C1EFF4700D90B25 /* CellData.m */; };
+		D6CD49081C200E4B00D90B25 /* UIContactDetailsViewConrtoller.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49071C200E4B00D90B25 /* UIContactDetailsViewConrtoller.m */; };
+		D6CD490C1C200E9800D90B25 /* UIContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD490B1C200E9800D90B25 /* UIContactTableViewController.m */; };
+		D6CD49101C200EFD00D90B25 /* UIContactImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD490F1C200EFD00D90B25 /* UIContactImageView.m */; };
+		D6CD49141C200F2F00D90B25 /* ContactSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49131C200F2F00D90B25 /* ContactSort.m */; };
+		D6CD49191C20341A00D90B25 /* default-contact.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CD49181C20341A00D90B25 /* default-contact.png */; };
+		D6CD491C1C204FF600D90B25 /* UIMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD491B1C204FF600D90B25 /* UIMoreViewController.m */; };
+		D6CD49271C20551100D90B25 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD491F1C20551100D90B25 /* MMDrawerBarButtonItem.m */; };
+		D6CD49281C20551100D90B25 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49221C20551100D90B25 /* MMDrawerController.m */; };
+		D6CD49291C20551100D90B25 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49241C20551100D90B25 /* MMDrawerVisualState.m */; };
+		D6CD492A1C20551100D90B25 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD49261C20551100D90B25 /* UIViewController+MMDrawerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6CD48D21C1DD37600D90B25 /* Telefonica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telefonica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD48D61C1DD37600D90B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6CD48D81C1DD37600D90B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6CD48D91C1DD37600D90B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6CD48DF1C1DD37600D90B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CD48E11C1DD37600D90B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		D6CD48E41C1DD37600D90B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CD48E61C1DD37600D90B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		D6CD48F91C1DD55100D90B25 /* UIHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHeaderView.h; sourceTree = "<group>"; };
+		D6CD48FA1C1DD55100D90B25 /* UIHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHeaderView.m; sourceTree = "<group>"; };
+		D6CD48FB1C1DD55100D90B25 /* UIHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIHeaderView.xib; sourceTree = "<group>"; };
+		D6CD49021C1EFF4700D90B25 /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		D6CD49031C1EFF4700D90B25 /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
+		D6CD49061C200E4B00D90B25 /* UIContactDetailsViewConrtoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIContactDetailsViewConrtoller.h; sourceTree = "<group>"; };
+		D6CD49071C200E4B00D90B25 /* UIContactDetailsViewConrtoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIContactDetailsViewConrtoller.m; sourceTree = "<group>"; };
+		D6CD490A1C200E9800D90B25 /* UIContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIContactTableViewController.h; sourceTree = "<group>"; };
+		D6CD490B1C200E9800D90B25 /* UIContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIContactTableViewController.m; sourceTree = "<group>"; };
+		D6CD490E1C200EFD00D90B25 /* UIContactImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIContactImageView.h; sourceTree = "<group>"; };
+		D6CD490F1C200EFD00D90B25 /* UIContactImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIContactImageView.m; sourceTree = "<group>"; };
+		D6CD49121C200F2F00D90B25 /* ContactSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactSort.h; sourceTree = "<group>"; };
+		D6CD49131C200F2F00D90B25 /* ContactSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactSort.m; sourceTree = "<group>"; };
+		D6CD49181C20341A00D90B25 /* default-contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-contact.png"; sourceTree = "<group>"; };
+		D6CD491A1C204FF600D90B25 /* UIMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIMoreViewController.h; path = "Telefonica/View Controllers/More View Controller/UIMoreViewController.h"; sourceTree = SOURCE_ROOT; };
+		D6CD491B1C204FF600D90B25 /* UIMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIMoreViewController.m; path = "Telefonica/View Controllers/More View Controller/UIMoreViewController.m"; sourceTree = SOURCE_ROOT; };
+		D6CD491E1C20551100D90B25 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		D6CD491F1C20551100D90B25 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		D6CD49201C20551100D90B25 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		D6CD49211C20551100D90B25 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		D6CD49221C20551100D90B25 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		D6CD49231C20551100D90B25 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		D6CD49241C20551100D90B25 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		D6CD49251C20551100D90B25 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		D6CD49261C20551100D90B25 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CD48CF1C1DD37600D90B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6CD48C91C1DD37600D90B25 = {
+			isa = PBXGroup;
+			children = (
+				D6CD48D41C1DD37600D90B25 /* Telefonica */,
+				D6CD48D31C1DD37600D90B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CD48D31C1DD37600D90B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD48D21C1DD37600D90B25 /* Telefonica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CD48D41C1DD37600D90B25 /* Telefonica */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD48EC1C1DD3BE00D90B25 /* Shared */,
+				D6CD48ED1C1DD3D600D90B25 /* Logic */,
+				D6CD48EE1C1DD3E600D90B25 /* Custom Views */,
+				D6CD48EF1C1DD3F800D90B25 /* View Controllers */,
+				D6CD48D81C1DD37600D90B25 /* AppDelegate.h */,
+				D6CD48D91C1DD37600D90B25 /* AppDelegate.m */,
+				D6CD48F11C1DD41500D90B25 /* Resources */,
+				D6CD48D51C1DD37600D90B25 /* Supporting Files */,
+			);
+			path = Telefonica;
+			sourceTree = "<group>";
+		};
+		D6CD48D51C1DD37600D90B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD48D61C1DD37600D90B25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6CD48EC1C1DD3BE00D90B25 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D6CD48ED1C1DD3D600D90B25 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49111C200F2F00D90B25 /* Contact Sort */,
+				D6CD49011C1EFF0100D90B25 /* Section Data */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		D6CD48EE1C1DD3E600D90B25 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD491D1C20551100D90B25 /* MMDrawerController */,
+				D6CD490D1C200ECF00D90B25 /* Contact Image View */,
+				D6CD48F81C1DD52600D90B25 /* Header View */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D6CD48EF1C1DD3F800D90B25 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49091C200E9800D90B25 /* Contacts Table VIew Controller */,
+				D6CD49051C200E4A00D90B25 /* Contact Details View Controller */,
+				D6CD48F21C1DD46500D90B25 /* More View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D6CD48F11C1DD41500D90B25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49171C20339600D90B25 /* Default Contact Image */,
+				D6CD48DE1C1DD37600D90B25 /* Main.storyboard */,
+				D6CD48E11C1DD37600D90B25 /* Assets.xcassets */,
+				D6CD48E31C1DD37600D90B25 /* LaunchScreen.storyboard */,
+				D6CD48E61C1DD37600D90B25 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6CD48F21C1DD46500D90B25 /* More View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD491A1C204FF600D90B25 /* UIMoreViewController.h */,
+				D6CD491B1C204FF600D90B25 /* UIMoreViewController.m */,
+			);
+			name = "More View Controller";
+			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		D6CD48F81C1DD52600D90B25 /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD48F91C1DD55100D90B25 /* UIHeaderView.h */,
+				D6CD48FA1C1DD55100D90B25 /* UIHeaderView.m */,
+				D6CD48FB1C1DD55100D90B25 /* UIHeaderView.xib */,
+			);
+			path = "Header View";
+			sourceTree = "<group>";
+		};
+		D6CD49011C1EFF0100D90B25 /* Section Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49021C1EFF4700D90B25 /* CellData.h */,
+				D6CD49031C1EFF4700D90B25 /* CellData.m */,
+			);
+			path = "Section Data";
+			sourceTree = "<group>";
+		};
+		D6CD49051C200E4A00D90B25 /* Contact Details View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49061C200E4B00D90B25 /* UIContactDetailsViewConrtoller.h */,
+				D6CD49071C200E4B00D90B25 /* UIContactDetailsViewConrtoller.m */,
+			);
+			path = "Contact Details View Controller";
+			sourceTree = "<group>";
+		};
+		D6CD49091C200E9800D90B25 /* Contacts Table VIew Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD490A1C200E9800D90B25 /* UIContactTableViewController.h */,
+				D6CD490B1C200E9800D90B25 /* UIContactTableViewController.m */,
+			);
+			path = "Contacts Table VIew Controller";
+			sourceTree = "<group>";
+		};
+		D6CD490D1C200ECF00D90B25 /* Contact Image View */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD490E1C200EFD00D90B25 /* UIContactImageView.h */,
+				D6CD490F1C200EFD00D90B25 /* UIContactImageView.m */,
+			);
+			path = "Contact Image View";
+			sourceTree = "<group>";
+		};
+		D6CD49111C200F2F00D90B25 /* Contact Sort */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49121C200F2F00D90B25 /* ContactSort.h */,
+				D6CD49131C200F2F00D90B25 /* ContactSort.m */,
+			);
+			path = "Contact Sort";
+			sourceTree = "<group>";
+		};
+		D6CD49171C20339600D90B25 /* Default Contact Image */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD49181C20341A00D90B25 /* default-contact.png */,
+			);
+			path = "Default Contact Image";
+			sourceTree = "<group>";
+		};
+		D6CD491D1C20551100D90B25 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD491E1C20551100D90B25 /* MMDrawerBarButtonItem.h */,
+				D6CD491F1C20551100D90B25 /* MMDrawerBarButtonItem.m */,
+				D6CD49201C20551100D90B25 /* MMDrawerController+Subclass.h */,
+				D6CD49211C20551100D90B25 /* MMDrawerController.h */,
+				D6CD49221C20551100D90B25 /* MMDrawerController.m */,
+				D6CD49231C20551100D90B25 /* MMDrawerVisualState.h */,
+				D6CD49241C20551100D90B25 /* MMDrawerVisualState.m */,
+				D6CD49251C20551100D90B25 /* UIViewController+MMDrawerController.h */,
+				D6CD49261C20551100D90B25 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CD48D11C1DD37600D90B25 /* Telefonica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD48E91C1DD37600D90B25 /* Build configuration list for PBXNativeTarget "Telefonica" */;
+			buildPhases = (
+				D6CD48CE1C1DD37600D90B25 /* Sources */,
+				D6CD48CF1C1DD37600D90B25 /* Frameworks */,
+				D6CD48D01C1DD37600D90B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telefonica;
+			productName = Telefonica;
+			productReference = D6CD48D21C1DD37600D90B25 /* Telefonica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CD48CA1C1DD37600D90B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ActionItem;
+				TargetAttributes = {
+					D6CD48D11C1DD37600D90B25 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D6CD48CD1C1DD37600D90B25 /* Build configuration list for PBXProject "Telefonica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CD48C91C1DD37600D90B25;
+			productRefGroup = D6CD48D31C1DD37600D90B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CD48D11C1DD37600D90B25 /* Telefonica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CD48D01C1DD37600D90B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD48FD1C1DD55100D90B25 /* UIHeaderView.xib in Resources */,
+				D6CD48E51C1DD37600D90B25 /* LaunchScreen.storyboard in Resources */,
+				D6CD49191C20341A00D90B25 /* default-contact.png in Resources */,
+				D6CD48E21C1DD37600D90B25 /* Assets.xcassets in Resources */,
+				D6CD48E01C1DD37600D90B25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CD48CE1C1DD37600D90B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD49291C20551100D90B25 /* MMDrawerVisualState.m in Sources */,
+				D6CD48DA1C1DD37600D90B25 /* AppDelegate.m in Sources */,
+				D6CD490C1C200E9800D90B25 /* UIContactTableViewController.m in Sources */,
+				D6CD491C1C204FF600D90B25 /* UIMoreViewController.m in Sources */,
+				D6CD49281C20551100D90B25 /* MMDrawerController.m in Sources */,
+				D6CD49141C200F2F00D90B25 /* ContactSort.m in Sources */,
+				D6CD49081C200E4B00D90B25 /* UIContactDetailsViewConrtoller.m in Sources */,
+				D6CD48D71C1DD37600D90B25 /* main.m in Sources */,
+				D6CD49041C1EFF4700D90B25 /* CellData.m in Sources */,
+				D6CD492A1C20551100D90B25 /* UIViewController+MMDrawerController.m in Sources */,
+				D6CD49271C20551100D90B25 /* MMDrawerBarButtonItem.m in Sources */,
+				D6CD48FC1C1DD55100D90B25 /* UIHeaderView.m in Sources */,
+				D6CD49101C200EFD00D90B25 /* UIContactImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6CD48DE1C1DD37600D90B25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD48DF1C1DD37600D90B25 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D6CD48E31C1DD37600D90B25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD48E41C1DD37600D90B25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CD48E71C1DD37600D90B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6CD48E81C1DD37600D90B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CD48EA1C1DD37600D90B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Telefonica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.actionitem.Telefonica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6CD48EB1C1DD37600D90B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Telefonica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.actionitem.Telefonica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CD48CD1C1DD37600D90B25 /* Build configuration list for PBXProject "Telefonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD48E71C1DD37600D90B25 /* Debug */,
+				D6CD48E81C1DD37600D90B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CD48E91C1DD37600D90B25 /* Build configuration list for PBXNativeTarget "Telefonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD48EA1C1DD37600D90B25 /* Debug */,
+				D6CD48EB1C1DD37600D90B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CD48CA1C1DD37600D90B25 /* Project object */;
+}
